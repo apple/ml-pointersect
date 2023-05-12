@@ -1,0 +1,89 @@
+process_info:
+  ddp_type: ddp
+  exclude_dirs:
+  - artifacts
+  - datasets
+  - checkpoints
+  exp_tag: exp_l1
+  exp_tag_first: false
+  find_unused_parameters: false  # true
+  log_every_num_test_batch: 1
+  log_every_num_train_batch: 1
+  log_every_num_valid_batch: 1
+  max_test_epoch_batches: 100
+  max_train_epoch_batches: 500
+  max_valid_epoch_batches: 100
+  save_every_num_epoch: 1
+  test_every_num_epoch: 1
+  use_torchrun: true
+  validate_every_num_epoch: 1
+  visualize_every_num_train_batch: 300
+  visualize_every_num_valid_batch: 30
+  visualize_every_num_test_batch: 10
+
+
+
+## dataset_info
+dataset_info:
+  dataset_name: 'tex'
+  dataset_root_dir: 'datasets/tex-models'
+  mesh_filename: 'bunny.obj'
+  test_mesh_filename: 'cat.obj'
+  batch_size: 1
+  n_target_imgs: 1
+  n_imgs: 3
+  width_px: 200
+  height_px: 200
+  target_width_px: 80
+  target_height_px: 80
+  fov: 60.
+  max_angle: 30.
+  local_max_angle: 3.
+  max_translate_ratio: 2.0
+  ray_perturbation_angle: 3
+  total: 6000
+  pcd_subsample: 2
+  dataset_rng_seed: 0
+  k: 40
+  num_threads: 0
+
+## model_info
+model_info:
+  learn_dist: false
+  num_layers: 4
+  dim_feature: 512
+  num_heads: 4
+  positional_encoding_num_functions: 0
+  positional_encoding_include_input: true
+  positional_encoding_log_sampling: true
+  nonlinearity: 'silu'
+  dim_mlp: 512
+  dropout: 0.1
+  direction_param: 'norm_vec'
+  estimate_surface_normal_weights: false
+  estimate_image_rendering_weights: true
+  use_dist_as_input: false
+  use_dps_as_input: false
+  use_dpsuv_as_input: true
+  use_pr: true
+  use_rgb_as_input: true
+  use_zdir_as_input: true
+
+## optim_info
+optim_info:
+  optim_method: 'adam'
+  learning_rate: 1.0e-4
+  lr_factor: 0.1
+  num_warmup_steps: 4000
+  max_grad_val: 1.0
+  use_amp: false
+  loss_weight_t: 10.
+  loss_weight_normal: 1.
+  loss_weight_hit: 1.0
+  loss_weight_rgb: 1.0
+  focal_loss_gamma: 2.0
+  focal_loss_alpha: 0.5
+  learn_ray_rgb: true
+  loss_rgb_type: l1
+  random_drop_rgb_rate: 0.5
+  random_drop_sample_feature_rate: 0.5
