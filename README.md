@@ -20,7 +20,7 @@ Given a point cloud and a ray, pointersect returns:
 
 You can use point clouds containing only xyz---neither color nor vertex normal is needed.
 
-[<img src="/assets/img/pointersect_output.png" width="50%">](https://mlr.cdn-apple.com/video/zebra_video_78ac0aabc5.mp4)
+[<img src="/assets/img/pointersect_output.png" width="66%">](https://mlr.cdn-apple.com/video/zebra_video_78ac0aabc5.mp4)
 
 
 
@@ -28,22 +28,22 @@ You can use point clouds containing only xyz---neither color nor vertex normal i
 
 1. We use the surface normal estimated by pointersect to relight a point cloud.
 
-<img src="/assets/img/pointersect_relight.png" width="50%">
+<img src="/assets/img/pointersect_relight.png" width="66%">
 
 2. Even though pointersect is designed to render clean point clouds, here is an example where we use a pretrained pointersect model 
 to render a lidar-scanned point cloud without any optimization.
 
-[<img src="/assets/img/pointersect_preview.png" width="50%">](https://mlr.cdn-apple.com/video/lidar_results_9a7bf55e95.mp4)
+[<img src="/assets/img/pointersect_preview.png" width="66%">](https://mlr.cdn-apple.com/video/lidar_results_9a7bf55e95.mp4)
 
 
 3. Edit and render without re-optimization.
 
-[<img src="/assets/img/pointersect_3dedit.png" width="50%">](https://mlr.cdn-apple.com/video/lidar_results_9a7bf55e95.mp4)
+[<img src="/assets/img/pointersect_3dedit.png" width="66%">](https://mlr.cdn-apple.com/video/lidar_results_9a7bf55e95.mp4)
 
 
 4. We use pointersect with path tracing to render the global illumination of a scene. 
 
-<img src="/assets/img/pointersect_globallight.png" width="50%">
+<img src="/assets/img/pointersect_globallight.png" width="66%">
 
 
 
