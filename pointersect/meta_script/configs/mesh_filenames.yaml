@@ -1,0 +1,273 @@
+shapenet-debug:
+  dataset_root_dir: 'ShapeNetCore_v2-1.0.0/data/raw'
+  cleaned_root_dir: 'datasets/cleaned_shapenet_models'
+  clean_mesh: true
+  train:
+    - 02691156/98dd57d068c8de064c3a35cee92bb95b/models/model_normalized.obj
+    - 02691156/feb0bd0dcd155af4cc34b900bb2492e/models/model_normalized.obj
+  test:
+    - 02828884/65e7b3316245780bb5512a11bb8b2bf4/models/model_normalized.obj
+    - 02828884/e3c1e31ca2a0247979dee05d9c95f934/models/model_normalized.obj
+
+shapenet:
+  dataset_root_dir: 'ShapeNetCore_v2-1.0.0/data/raw'
+  cleaned_root_dir: 'datasets/cleaned_shapenet_models'
+  clean_mesh: true
+  train:
+    - 02691156/b46244d196a7f66635ae67400a94a6fe/models/model_normalized.obj
+    - 02691156/795e0051d9ce7dfe384d4ad42dbd0045/models/model_normalized.obj
+    - 02691156/b7eefc4c25dd9e49238581dd5a8af82c/models/model_normalized.obj
+    - 02691156/b174db77afdcdd055b2a16b1d9c48e6b/models/model_normalized.obj
+    - 02691156/cbacce3a17e061251ab9df4be75138d0/models/model_normalized.obj
+    - 02691156/98dd57d068c8de064c3a35cee92bb95b/models/model_normalized.obj
+    - 02691156/feb0bd0dcd155af4cc34b900bb2492e/models/model_normalized.obj
+    - 02691156/700bc5991a46c1d53ddab476a0f5c5ee/models/model_normalized.obj
+    - 02691156/9c41b0040048581c32387cdb9b2a84d5/models/model_normalized.obj
+    - 02691156/4a9d3df03a7d41d77209009cfb89d4bd/models/model_normalized.obj
+    - 02958343/aff67f837a958d2329984c4afd2e98a4/models/model_normalized.obj
+    - 02958343/fd243c10d91f08e46e282bcaec079702/models/model_normalized.obj
+    - 02958343/d8f813278a49463db203f960004c7382/models/model_normalized.obj
+    - 02958343/d000ef0c691489c9801b0db1d49ea10c/models/model_normalized.obj
+    - 02958343/dee83e7ab66cd504d88da0963249578d/models/model_normalized.obj
+    - 02958343/f33b310ba5e68b82becf71e2e014ff6f/models/model_normalized.obj
+    - 02958343/dbd0651a6d5bdad69bc489396a21b465/models/model_normalized.obj
+    - 02958343/17c08a4bf8224f47473f10e6caaeca56/models/model_normalized.obj
+    - 02958343/c6191031c1d685d580360680c1602c7d/models/model_normalized.obj
+    - 02958343/5057c9dbf72e0352728fa2df514c65d4/models/model_normalized.obj
+    - 03001627/6c7a07030e673b0b9c9eed7651b77d0f/models/model_normalized.obj
+    - 03001627/8a8c67e553f1c85c1829bffea9d18abb/models/model_normalized.obj
+    - 03001627/752102fb466042576a63d6c64bf6b56/models/model_normalized.obj
+    - 03001627/374e76e8b8357e5f796d422781cbc933/models/model_normalized.obj
+    - 03001627/a037d4ba135bea9472a38ac2b8f5cd48/models/model_normalized.obj
+    - 03001627/daabf4a2afac24c97eaf5bcc4a8beb17/models/model_normalized.obj
+    - 03001627/a3acfe6f313ab881bb088904f7cb154/models/model_normalized.obj
+    - 03001627/d4326cd55ed8333f6a059e1fc701f06/models/model_normalized.obj
+    - 03001627/f8bf45e20bec7cbc9cf3f05539f5c4e3/models/model_normalized.obj
+    - 03001627/17ab0917e215e4fcfd300048280f015a/models/model_normalized.obj
+  test:
+    - 02828884/95cbcdc64b28bbf396f61afd58e50ae2/models/model_normalized.obj
+    - 02828884/6d420bec5284eb43ad5067eac75a07f7/models/model_normalized.obj
+    - 02828884/65e7b3316245780bb5512a11bb8b2bf4/models/model_normalized.obj
+    - 02828884/e3c1e31ca2a0247979dee05d9c95f934/models/model_normalized.obj
+    - 02828884/7a2ad24394c5d139d46c340938e2ff1c/models/model_normalized.obj
+    - 02828884/87dfa3332d118867d0d69b51a45f7aff/models/model_normalized.obj
+    - 02828884/19399a9aac37442359cbde03ded257fd/models/model_normalized.obj
+    - 02828884/481885f3ffe14c40665f42dc26fed092/models/model_normalized.obj
+    - 02828884/f5d370e9fe5b7452dbbc9440457e303e/models/model_normalized.obj
+    - 02828884/84d8530355cafc8fd838ae16242881dc/models/model_normalized.obj
+    - 04090263/9079c787f6d944d69a6e43b878d5b335/models/model_normalized.obj
+    - 04090263/67c285f5c701d6cd8ea092ebe8f64ae8/models/model_normalized.obj
+    - 04090263/a3896a954602b229d9d2bbf707e9704b/models/model_normalized.obj
+    - 04090263/fe26829c67320001638241f3ad71c10/models/model_normalized.obj
+    - 04090263/1d69667fdee51c20e6fe695987d47043/models/model_normalized.obj
+    - 04090263/981d2bf1b1b028e46b1aa8d90854daa1/models/model_normalized.obj
+    - 04090263/c36992c1accaeba6803b54e9738b20a6/models/model_normalized.obj
+    - 04090263/2288e5e13ae8aa7192cea77f96988ae6/models/model_normalized.obj
+    - 04090263/98f15a80dc5ea719d0a6af9bfb470a20/models/model_normalized.obj
+    - 04090263/347c9ad6b867bf885d0dded52efeb4fd/models/model_normalized.obj
+    - 04530566/605b56aa6a4c9ef49f1deb04fb8ae481/models/model_normalized.obj
+    - 04530566/ddf03991440ea0d15eb13ba95b07c9cb/models/model_normalized.obj
+    - 04530566/83aa90436933149311c337781d78350b/models/model_normalized.obj
+    - 04530566/aec79b6f0379b1749fb6fb8ca3454a08/models/model_normalized.obj
+    - 04530566/77cf1b9003d904df96bb95f1b1976a40/models/model_normalized.obj
+    - 04530566/6737f75bb87e3cc0847c4e55bb965ab0/models/model_normalized.obj
+    - 04530566/1378b7d4dc05adba9069b3c9aa123329/models/model_normalized.obj
+    - 04530566/693566461a33af90d7f8e93419dcfd5f/models/model_normalized.obj
+    - 04530566/d5b2fe7ceeed1ff59268271e4d570275/models/model_normalized.obj
+    - 04530566/476bc79bd6fec6b088f5c2d4f2395a95/models/model_normalized.obj
+
+
+sketchfab:
+  dataset_root_dir: 'datasets/sketchfab'
+  train:
+    - train_mesh/Angel_Statue_aligned.off
+    - train_mesh/angel4_aligned.off
+    - train_mesh/maria_aligned.off
+    - train_mesh/happy_vrip_aligned.off
+    - train_mesh/statue_death_aligned.off
+    - train_mesh/dragon_wing_aligned.off
+    - train_mesh/hunter_aligned.off
+    - train_mesh/hercules_aligned.off
+    - train_mesh/statue_rider_aligned.off
+    - train_mesh/vishnu_aligned.off
+    - train_mesh/Two_wrestlers_in_combat_aligned.off
+    - train_mesh/dragon_cup_aligned.off
+    - train_mesh/engine_aligned.off
+    - train_mesh/statue_air_force_aligned.off
+    - train_mesh/alliance_statue_aligned.off
+    - train_mesh/arte_aligned.off
+    - train_mesh/dragon_aligned.off
+    - train_mesh/mozart_aligned.off
+    - train_mesh/statue_ramesses_aligned.off
+    - train_mesh/helmet_aligned.off
+    - train_mesh/compressor_aligned.off
+    - train_mesh/SubTool-0-11417966_aligned.off
+    - train_mesh/snake_aligned.off
+    - train_mesh/ladylady_aligned.off
+    - train_mesh/statue_three_music_aligned.off
+    - train_mesh/mesh_little_angle_aligned.off
+    - train_mesh/statue_neptune_aligned.off
+    - train_mesh/statue_rome_aligned.off
+    - train_mesh/transmission_aligned.off
+    - train_mesh/GaneshaPlane_Cut_aligned.off
+    - train_mesh/snow_head_aligned.off
+    - train_mesh/statue_old_aligned.off
+    - train_mesh/dragon_plate_aligned.off
+    - train_mesh/buddha_sit_aligned.off
+    - train_mesh/ll-exported_aligned.off
+    - train_mesh/man_face_aligned.off
+    - train_mesh/statue_neptune_horse_aligned.off
+    - train_mesh/saiya_aligned.off
+    - train_mesh/modello_buddha_aligned.off
+    - train_mesh/Girl_with_Dog_aligned.off
+    - train_mesh/armadillo_aligned.off
+    - train_mesh/bird_water_aligned.off
+    - train_mesh/gundam_aligned.off
+    - train_mesh/goldenelephant-exported_aligned.off
+    - train_mesh/NENE-PATO_aligned.off
+    - train_mesh/three_child_aligned.off
+    - train_mesh/statue_dragon_aligned.off
+    - train_mesh/AMPHITRITE_aligned.off
+    - train_mesh/fox_skull_aligned.off
+    - train_mesh/dragon_stand_aligned.off
+    - train_mesh/angel2_aligned.off
+    - train_mesh/ganesha_aligned.off
+    - train_mesh/dog_wing_aligned.off
+    - train_mesh/manstatue_aligned.off
+    - train_mesh/ange6_aligned.off
+    - train_mesh/dragon_xyz_aligned.off
+    - train_mesh/sheep_aligned.off
+    - train_mesh/pearl_dragon_aligned.off
+    - train_mesh/statue_mother_aligned.off
+    - train_mesh/AncientTurtl_aligned.off
+    - train_mesh/dwarf_aligned.off
+    - train_mesh/statue_oxen_aligned.off
+    - train_mesh/angle_diffuse2_artect2_mesh_flip_aligned.off
+    - train_mesh/valve_aligned.off
+    - train_mesh/camera_aligned.off
+    - train_mesh/dragon_warrior_aligned.off
+    - train_mesh/lion_ball_aligned.off
+    - train_mesh/vase_lion_aligned.off
+    - train_mesh/vase_pot_aligned.off
+    - train_mesh/statue_luyu_aligned.off
+    - train_mesh/chairman_aligned.off
+    - train_mesh/two_child_aligned.off
+    - train_mesh/statue_napoleon_aligned.off
+    - train_mesh/dragon_china_aligned.off
+    - train_mesh/god_aligned.off
+    - train_mesh/karburator_aligned.off
+    - train_mesh/guanyiny_aligned.off
+    - train_mesh/statue_child_fish_aligned.off
+    - train_mesh/roman_sphinx_export_aligned.off
+    - train_mesh/angel3_aligned.off
+    - train_mesh/statue_madona_aligned.off
+    - train_mesh/gargo_aligned.off
+#    - train_mesh/clito_aligned.off
+#    - train_mesh/turkana_boy_aligned.off
+#    - train_mesh/ange5_aligned.off
+#    - train_mesh/vase_empire_aligned.off
+#    - train_mesh/statue_deer_lowboy_aligned.off
+#    - train_mesh/statue_bronze_aligned.off
+#    - train_mesh/lady_aligned.off
+#    - train_mesh/horses_fountain_aligned.off
+  test:
+    - train_mesh/clito_aligned.off
+    - train_mesh/turkana_boy_aligned.off
+    - train_mesh/ange5_aligned.off
+    - train_mesh/vase_empire_aligned.off
+    - train_mesh/statue_deer_lowboy_aligned.off
+    - train_mesh/statue_bronze_aligned.off
+    - train_mesh/lady_aligned.off
+    - train_mesh/horses_fountain_aligned.off
+
+
+sketchfab-small-debug:
+  dataset_root_dir: 'datasets/sketchfab-small'
+  clean_mesh: true
+  train:
+    - train/xyz_rgb_dragon/SimpleBake_Bakes/mesh.glb
+    - train/archelon_-_dragon_sea_turtle/SimpleBake_Bakes/mesh.glb
+  test:
+    - test/baron_seutin/SimpleBake_Bakes/mesh.glb
+    - test/bust_of_a_rhetorician_restored/SimpleBake_Bakes/mesh.glb
+
+
+sketchfab-small:
+  dataset_root_dir: 'datasets/sketchfab-small'
+  clean_mesh: true
+  train:
+    - train/a_sculpture_in_air_force_museum_of_vietnam/SimpleBake_Bakes/mesh.glb
+    - train/amphitrite_-_louvre_museum_low_definition/SimpleBake_Bakes/mesh.glb
+    - train/angel/SimpleBake_Bakes/mesh.glb
+    - train/angel_playing_harp/SimpleBake_Bakes/mesh.glb
+    - train/angel_sculpture_3d_scan_einscan-s/SimpleBake_Bakes/mesh.glb
+    - train/angel_statue_in_fossano/SimpleBake_Bakes/mesh.glb
+    - train/angels/SimpleBake_Bakes/mesh.glb
+    - train/archelon_-_dragon_sea_turtle/SimpleBake_Bakes/mesh.glb
+    - train/baptismal_angel_kneeling/SimpleBake_Bakes/mesh.glb
+    - train/buddha/SimpleBake_Bakes/mesh.glb
+    - train/bust_of_a_roman/SimpleBake_Bakes/mesh.glb
+    - train/chateau_de_chamarande_-_france/SimpleBake_Bakes/mesh.glb
+    - train/chinese_dragon/SimpleBake_Bakes/mesh.glb
+    - train/cobra_statue/SimpleBake_Bakes/mesh.glb
+    - train/compressor_scan/SimpleBake_Bakes/mesh.glb
+    - train/dragon-stl/SimpleBake_Bakes/mesh.glb
+    - train/dragon_chalice/SimpleBake_Bakes/mesh.glb
+    - train/dragon_decimated_sculpt/SimpleBake_Bakes/mesh.glb
+    - train/empire_vase/SimpleBake_Bakes/mesh.glb
+    - train/equestrian_statue_of_napoleon/SimpleBake_Bakes/mesh.glb
+    - train/ganesha/SimpleBake_Bakes/mesh.glb
+    - train/gargo/SimpleBake_Bakes/mesh.glb
+    - train/girl_with_dog/SimpleBake_Bakes/mesh.glb
+    - train/golden_ephant/SimpleBake_Bakes/mesh.glb
+    - train/grey_fox_skull/SimpleBake_Bakes/mesh.glb
+    - train/guanyin/SimpleBake_Bakes/mesh.glb
+    - train/happy_buddha_stanford/SimpleBake_Bakes/mesh.glb
+    - train/king_of_narnia_aslan/SimpleBake_Bakes/mesh.glb
+    - train/little_angle/SimpleBake_Bakes/mesh.glb
+    - train/madona_sculpture/SimpleBake_Bakes/mesh.glb
+    - train/man_on_bench_statue_photogrammetry/SimpleBake_Bakes/mesh.glb
+    - train/maria_fjodorovna_barjatinskaja/SimpleBake_Bakes/mesh.glb
+    - train/neptune_-_louvre_museum/SimpleBake_Bakes/mesh.glb
+    - train/ox_statue_kek_lok_si_buddhist_temple_penang/SimpleBake_Bakes/mesh.glb
+    - train/panasonic_gh4_body/SimpleBake_Bakes/mesh.glb
+    - train/pieta/SimpleBake_Bakes/mesh.glb
+    - train/roman_sphinx/SimpleBake_Bakes/mesh.glb
+    - train/stanford_armadillo_pbr/SimpleBake_Bakes/mesh.glb
+    - train/the_death_and_the_mother/SimpleBake_Bakes/mesh.glb
+    - train/the_elephant_god_ganesha/SimpleBake_Bakes/mesh.glb
+    - train/the_god_vishnu/SimpleBake_Bakes/mesh.glb
+    - train/the_infant_mozart/SimpleBake_Bakes/mesh.glb
+    - train/tower_well_valve/SimpleBake_Bakes/mesh.glb
+    - train/two_wrestlers_in_combat_repost/SimpleBake_Bakes/mesh.glb
+    - train/warcraft_alliance_statue/SimpleBake_Bakes/mesh.glb
+    - train/wooden_buddha_statuette/SimpleBake_Bakes/mesh.glb
+    - train/wooden_dragon/SimpleBake_Bakes/mesh.glb
+    - train/xyz_rgb_dragon/SimpleBake_Bakes/mesh.glb
+  test:
+    - test/baron_seutin/SimpleBake_Bakes/mesh.glb
+    - test/bust_of_a_rhetorician_restored/SimpleBake_Bakes/mesh.glb
+    - test/cupid/SimpleBake_Bakes/mesh.glb
+    - test/drunkard_-_cap_re/SimpleBake_Bakes/mesh.glb
+    - test/lambert_de_maestricht_and_liege/SimpleBake_Bakes/mesh.glb
+    - test/marie-madeleine/SimpleBake_Bakes/mesh.glb
+    - test/relief_in_terracotta/SimpleBake_Bakes/mesh.glb
+    - test/seated_jew/SimpleBake_Bakes/mesh.glb
+    - test/seated_lady/SimpleBake_Bakes/mesh.glb
+    - test/statue_of_zenobe_gramme/SimpleBake_Bakes/mesh.glb
+    - test/the_charity/SimpleBake_Bakes/mesh.glb
+    - test/vulcan/SimpleBake_Bakes/mesh.glb
+    - test/young_roman_as_asklepios/SimpleBake_Bakes/mesh.glb
+
+tex-models:
+  dataset_root_dir: 'datasets/tex-models'
+  clean_mesh: false
+  train:
+  test:
+    - buddha.obj
+    - buddha2.obj
+    - bunny.obj
+    - cat.obj
+    - feline.obj
+    - tiger.obj
+    - zebra.obj

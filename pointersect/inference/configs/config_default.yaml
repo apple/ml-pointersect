@@ -1,0 +1,41 @@
+
+model_filename: null
+max_ray_chunk_size: null
+
+# for input/output camera
+input_point_sample_method: 'rgbd'
+input_camera_trajectory_mode: udlrfb
+n_input_imgs: 6  # use 6 rgbd images to create the point cloud
+output_camera_trajectory_mode: spiral
+n_output_imgs: 36
+
+input_camera_setting:
+  fov: 30
+  width_px: 200
+  height_px: 200
+
+input_camera_trajectory_params:
+  min_r: 4
+  max_r: 4.01
+
+output_camera_setting:
+  fov: 30
+  width_px: 200
+  height_px: 200
+
+# for pointersect
+k: 40
+
+# other settings
+save_settings:
+  overwrite: true
+
+surfel_point_size: 1.
+
+# control what methods to render
+render_pointersect: true
+render_surfel: true
+render_poisson: false
+
+drop_point_cloud_features: true
+

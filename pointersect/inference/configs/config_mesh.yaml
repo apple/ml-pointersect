@@ -1,0 +1,59 @@
+
+# all config needs to have procedure defined
+procedure: render_mesh
+#procedure: render_arkit
+#procedure: render_hypersim
+#procedure: batch_render_mesh
+
+# arguments to the procedure function
+mesh_filename: datasets/tex-models/bunny.obj
+#mesh_filename: datasets/tex-models/buddha.obj
+#mesh_filename: datasets/sketchfab/test_mesh/A9-vulcan_aligned.off
+
+# the output folder storing the rendering results
+output_dir: outputs
+
+# the pretrained pointersect model
+model_filename: null
+
+# directly controls the number of rays in a chunk
+max_ray_chunk_size: 100000
+
+# the method to sample point cloud from the mesh
+input_point_sample_method: 'rgbd'
+input_camera_trajectory_mode: udlrfb
+n_input_imgs: 6
+input_camera_trajectory_params:
+  min_r: 4
+  max_r: 4.01
+input_camera_setting:
+  fov: 30
+  width_px: 200
+  height_px: 200
+
+# output camera trajectory
+output_camera_trajectory_mode: spiral
+n_output_imgs: 144
+
+output_camera_setting:
+  fov: 30
+  width_px: 200
+  height_px: 200
+
+# (for pointersect) controls the number of neighboring points to use
+k: 40
+
+# control whether to perform voxel downsampling
+voxel_downsample_cell_width: -1
+voxel_downsample_sigma: 0.5
+
+# other settings
+save_settings:
+  overwrite: true
+
+surfel_point_size: 1.
+
+# control what methods to render
+render_pointersect: true
+render_surfel: true
+render_poisson: true

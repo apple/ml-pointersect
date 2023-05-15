@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pointersect"
+authors = [
+    {name = "Rick Chang", email = "jenhao_chang@apple.com"},
+]
+version = "0.0.1"
+description = "Plug-and-play point-cloud rendering"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "Apple Sample Code"}
+dependencies = [
+    "chamferdist",
+    "fire",
+    "func_timeout",
+    "h5py",
+    "imageio",
+    "kornia",
+    "lpips",
+    "matplotlib",
+    "numpy",
+    "open3d",
+    "opencv_python",
+    "opencv_python_headless",
+    "Pillow",
+    "PyEXR",
+    "pygltflib",
+    "PyYAML",
+    "scikit_image",
+    "scipy",
+    "setuptools",
+    "tensorboard",
+    "tgt",
+    "torch",
+    "torch_scatter",  # needs pytorch to be already installed
+    "tqdm",
+    "xatlas",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", "env*", "docs*", "datasets*", "assets*", "bolt*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml", "*.cu", "*.cpp", "*.h", "*.pt", "*.pth"]
+
+[project.scripts]
+pointersect = "pointersect.inference.main:main_pcd"
+pointersect_full = "pointersect.inference.main:main_full"
