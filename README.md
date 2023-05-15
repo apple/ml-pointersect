@@ -37,6 +37,7 @@ to render a lidar-scanned point cloud without any optimization.
 
 
 3. Edit and render without re-optimization.
+
 [<img src="/assets/img/pointersect_3dedit.png" width="50%">](https://mlr.cdn-apple.com/video/lidar_results_9a7bf55e95.mp4)
 
 

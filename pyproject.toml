@@ -41,7 +41,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-exclude = ["tests*", "env*", "docs*", "datasets*", "assets*", "bolt*"]  
+exclude = ["tests*", "env*", "docs*", "datasets*", "assets*", "bolt*"]
 
 [tool.setuptools.package-data]
 "*" = ["*.yaml", "*.cu", "*.cpp", "*.h", "*.pt", "*.pth"]
