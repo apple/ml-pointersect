@@ -2,7 +2,7 @@
 
 [[Website](https://machinelearning.apple.com/research/pointersect)] 
 [[Paper](https://arxiv.org/abs/2304.12390)] 
-[[Docs](/assets/docs/README.md)] 
+[[Docs](/docs/README.md)] 
 [[Examples](/assets/examples)] 
 [[Videos](/assets/videos)] 
 
